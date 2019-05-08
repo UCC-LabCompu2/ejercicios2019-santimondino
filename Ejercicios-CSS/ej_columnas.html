@@ -3,15 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Ejercicio Columnas</title>
+    <!--A continuacion se ve el el codigo en css no en html-->
+    <style>
+        /* En css */
+        body{
+            font-family: "Comic Sans MS";
+        }
+        #tituloPrincipal{
+            color: cadetblue;
+        }
+        .tituloNoticias{
+            font-size: 16px;
+        }
+        a:link, a:visited{
+            color:#4CAF50;
+        }
+        a:hover{
+            font-size: 20px;
+        }
+        a:active{
+            font-weight: bold;
+        }
+    </style>
 </head>
-<body>
+<body><!--style="font-family: 'Comic Sans MS'"--> <!--font-family sirve para el tipo de letra-->
 <!--Cree los estilos CSS necesarios para que el texto se visualice en 2 columnas-->
 <header>
-    <h1>Diario On-line</h1>
+    <h1 id="tituloPrincipal"><!--/h1>style="color: cadetblue"--> Diario On-line</h1>
 </header>
-
+<header>
+    <a href="ej_leyes.html" target="_blank">Legal</a>
+</header>
 <section>
-    <h3>CordoBici</h3>
+    <h3 class="tituloNoticias"><!-- style="font-size: 16px"-->CordoBici</h3><!--font-size sirve para el tamaño de letra-->
     Publicado el 07/03/2018 en Agropecuarias y Ambiente
     <article>
         <p>
